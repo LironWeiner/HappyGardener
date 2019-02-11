@@ -1,4 +1,4 @@
-Android application that help's a gardener to manage his\hers clients:
+##Android application that help's a gardener to manage his\hers clients:
 client info: name, phone, method of payment, address (using google place picker), date of the job, notification for the job (can repeat once a week, twice a week, once a month), parts used for the job (grass,  plants and much more categories) , hourly rate , time estimate for the job , price (manually entered or calculated based on parts total price ,hourly rate and time estimation of course) , and there's a discount option too. 
 The user can send the client the bill in a formatted way directly from the app to 
 whatsapp\ sms\ mail to make life much easier. User can call, navigate to client directly from the app. There's a search function for the parts (divided by categories), search function for the customers the customers are ordered by closest job date first.
