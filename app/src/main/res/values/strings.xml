@@ -1,0 +1,134 @@
+<resources>
+    <!--<string name="facebook_app_id" translatable="false">2560499824232543</string>-->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBG4AQQgoPq_I2LjzAu0t39TwiOuXcGVag</string>
+    <string name="app_name">HappyGardener</string>
+    <string name="customer_detail">Customer\'s details</string>
+    <string name="customer_name">Customer\'s name</string>
+    <string name="customer_payment">Payment method</string>
+    <string name="customer_address">Customer\'s address</string>
+    <string name="customer_address_hint">Press the icon to choose location</string>
+    <string name="customer_date_hint">Press the icon to choose a date and time</string>
+    <string name="customer_date">Job\'s due date</string>
+    <string name="customer_name_hint">Example Michael Jordan</string>
+    <string name="customer_phone">Phone</string>
+    <string name="customer_phone_hint">Example 0541234567</string>
+    <string name="select_all">Select all</string>
+
+
+    <string name="toast_empty_name">Enter a name and a family name. like Michael Jordan</string>
+    <string name="choose_a_category">Choose a category</string>
+    <!--Categories-->
+    <string name="grass">grass</string>
+    <string name="fertilizer">fertilizer</string>
+    <string name="tree">trees</string>
+    <string name="plants">plants</string>
+    <string name="pipes">pipes</string>
+    <string name="fences">fences</string>
+    <string name="soil">soil</string>
+    <string name="decorations">decorations</string>
+    <string name="general">general</string>
+    <!--End of Categories-->
+    <string name="title_activity_parts_by_category" translatable="false">PartsByCategoryActivity</string>
+    <string name="opendialog_sign_out">Are you sure you want to sign out?</string>
+    <string name="opendialog_yes">yes</string>
+    <string name="opendialog_no">No</string>
+    <string name="part_details">Part details</string>
+    <string name="part_s_name">Part\'s name</string>
+    <string name="hint_part_name">Example green grass</string>
+    <string name="parts_price_per_unit">part\'s price per unit</string>
+    <string name="hint_part_price">Example 45.78</string>
+    <string name="create_customer">Create customer</string>
+    <string name="create_part">Create part</string>
+    <string name="price">Price</string>
+    <string name="name">Name</string>
+    <string name="toast_delete_used_part_1">Can\'t delete</string>
+    <string name="toast_delete_used_part_2">in use by customer/s</string>
+    <string name="part_s_quantity">part\'s quantity</string>
+    <string name="quantity_hint">Example 2</string>
+    <string name="measurement">Measurement</string>
+    <string name="total_price">Total price</string>
+    <string name="hint_total_price">Enter quantity</string>
+
+    <string-array name="payment_options">
+        <item>Empty</item>
+        <item>Check</item>
+        <item>Cash</item>
+        <item>Bank transfer</item>
+    </string-array>
+
+    <string-array name="measurement_options">
+        <item>Unit</item>
+        <item>square meter</item>
+        <item>Meter</item>
+        <item>Inch</item>
+        <item>Centimeter</item>
+        <item>Millimeter</item>
+    </string-array>
+
+    <string name="unit">Unit</string>
+
+
+    <string name="Required">Required</string>
+    <string name="valid_number">Enter a valid number</string>
+    <string name="customer_parts">Customer parts</string>
+    <string name="quantity">Quantity</string>
+    <string name="error_part_name">Enter part\'s name</string>
+    <string name="error_part_price">Enter part\'s price</string>
+    <string name="error_valid_number">Enter a valid number</string>
+    <string name="update_part">Update part</string>
+    <string name="toast_equal">You didn\'t change anything</string>
+    <string name="reminder">Job\'s Reminder</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="every_two_weeks">Every two weeks</string>
+    <string name="none">None</string>
+    <string name="repeat">Repeat</string>
+    <string name="error_customer_date">Need to enter a date</string>
+    <string name="error_customer_notification">Need to enter a notification date</string>
+
+    <string name="job_details">Job details</string>
+    <string name="parts_price">Parts price</string>
+    <string name="hint_add_parts">Add parts to the customer parts</string>
+    <string name="estimated_time_to_perform_the_job">Estimated time to perform the job</string>
+    <string name="hourly_rate">Hourly rate</string>
+    <string name="enter_hourly_rate">Enter hourly work rate</string>
+    <string name="hint_estimate_time">Enter estimate time to finish the job</string>
+    <string name="price_without_discount">Price without discount</string>
+    <string name="hint_enter_hourly_rate_parts_estimate_time">Enter hourly rate,parts,estimate time</string>
+    <string name="discount">Discount</string>
+    <string name="final_price">Final price</string>
+    <string name="hours">Hours</string>
+    <string name="days">Days</string>
+    <string name="dialog_add_customer_quit">Are you sure you want to cancel customer creation/update you will loose all info</string>
+    <string name="dialog_remove_customer">Are you sure you want to delete customer/s</string>
+    <string name="dialog_warning">Warning</string>
+    <string name="searchview_hint">Enter customer name or jobs date</string>
+    <string name="update_customer">Update customer</string>
+    <string name="final_price_after_discount">Final price after discount</string>
+    <string name="equal_part">Already got the same part!</string>
+    <string name="call_customer">Call customer</string>
+    <string name="navigate_to_customer">Navigate to customer</string>
+    <string name="toast_navigation">Enter an address</string>
+    <string name="toast_call">Enter a phone number</string>
+    <string name="dialog_update_customer">Are you sure you want to update this customer?</string>
+    <string name="category_search_hint">Enter part\'s name</string>
+    <string name="part_picture_text">Picture</string>
+    <string name="upload_picture">Select a picture</string>
+    <string name="delete_picture_success">Picture deleted</string>
+    <string name="dialog_remove_part">Are you sure you want to delete part/s</string>
+    <string name="send_bill_toast">Enter final price</string>
+    <string name="customer_name_allowed_characters">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ \'אבגדהוזחטיכךלמםנןסעפףצץקרשת</string>
+    <string name="connect_with_google">Connect with google</string>
+    <string name="fab_parts_hint">Parts list</string>
+    <string name="disconnect">Disconnect</string>
+
+    <!-- CustomerActivityGuide strings-->
+    <string name="short_press_button">Press the button to add a customer</string>
+    <string name="long_press_button">Hold the button for more options</string>
+    <string name="guide_dialog">Would you like a short tutorial that will teach you how to use the app?</string>
+    <!--End of CustomerActivityGuide strings-->
+
+    <string name="progress_dialog_backup_database">Backing up</string>
+    <string name="toast_pick_image_from_phone">Choose image that is on your storage</string>
+    <string name="toast_picture_invalid">Picture dosent exist/invalid picture</string>
+</resources>

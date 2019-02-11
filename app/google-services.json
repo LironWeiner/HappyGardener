@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "327354794184",
+    "firebase_url": "https://happygardener-69a32.firebaseio.com",
+    "project_id": "happygardener-69a32",
+    "storage_bucket": "happygardener-69a32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327354794184:android:f16df2f350d0b3a6",
+        "android_client_info": {
+          "package_name": "com.example.weinner.liron.happygardener"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327354794184-ls6libsmrq5hovpvlaih220g7t9ok8hu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.weinner.liron.happygardener",
+            "certificate_hash": "75ba3fff6c2743a13a0ba9f651e8cc2d6d3fee36"
+          }
+        },
+        {
+          "client_id": "327354794184-q059sa2ahhnfniqv2m3m5ttg0voupsn8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.weinner.liron.happygardener",
+            "certificate_hash": "79315d0ae0764c21660db0c60d0f8c8537cb2400"
+          }
+        },
+        {
+          "client_id": "327354794184-quasdglol1b8bjbv29o49jfhkceegf0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG4AQQgoPq_I2LjzAu0t39TwiOuXcGVag"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327354794184-quasdglol1b8bjbv29o49jfhkceegf0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

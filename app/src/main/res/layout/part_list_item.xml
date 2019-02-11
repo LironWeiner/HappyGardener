@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.constraint.ConstraintLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/part_card_view"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:cardPreventCornerOverlap="false"
+            card_view:cardUseCompatPadding="true">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ripple_list_item">
+
+                <ImageView
+                    android:id="@+id/part_category_icon"
+                    android:layout_marginTop="10dp"
+                    card_view:layout_constraintTop_toTopOf="parent"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    card_view:layout_constraintStart_toStartOf="parent"
+                    card_view:layout_constraintEnd_toEndOf="parent" />
+
+                <Button
+                    android:id="@+id/button_part_delete"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    card_view:layout_constraintStart_toStartOf="parent"
+                    card_view:layout_constraintTop_toTopOf="@+id/part_category_icon"
+                    android:layout_marginStart="2dp"
+                    android:background="@drawable/ic_round"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView_part_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:layout_constraintStart_toStartOf="parent"
+                    card_view:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="2dp"
+                    card_view:layout_constraintTop_toBottomOf="@id/button_part_delete"
+                    android:textSize="@dimen/part_list_text_size"
+                    android:lines="2" />
+
+                <TextView
+                    android:id="@+id/textView_part_quantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginStart="2dp"
+                    card_view:layout_constraintEnd_toEndOf="parent"
+                    card_view:layout_constraintStart_toStartOf="@+id/textView_part_name"
+                    card_view:layout_constraintTop_toBottomOf="@+id/textView_part_name"
+                    android:textSize="@dimen/part_list_text_size"
+                    android:lines="2" />
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+    </android.support.constraint.ConstraintLayout>
+</layout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.weinner.liron.happygardener.ChooseCategoryActivity">
+        <TextView
+            android:id="@+id/textView_choose_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/category_button_selector"
+            android:text="@string/choose_a_category"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <android.support.constraint.ConstraintLayout
+            app:layout_constraintTop_toBottomOf="@id/textView_choose_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <Button
+                android:id="@+id/button_category_grass"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/category_button_selector"
+                android:drawableTop="@drawable/ic_grass"
+                android:text="@string/grass"
+                app:layout_constraintEnd_toStartOf="@id/button_category_fertilizer"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/button_category_fertilizer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/category_button_selector"
+                android:drawableTop="@drawable/ic_fertilizer"
+                android:text="@string/fertilizer"
+                app:layout_constraintEnd_toStartOf="@id/button_category_tree"
+                app:layout_constraintStart_toEndOf="@id/button_category_grass" />
+
+            <Button
+                android:id="@+id/button_category_tree"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/category_button_selector"
+                android:drawableTop="@drawable/ic_palm_tree"
+                android:text="@string/tree"
+                app:layout_constraintStart_toEndOf="@id/button_category_fertilizer"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/button_category_plant"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/category_button_selector"
+                android:drawableTop="@drawable/ic_flower"
+                android:text="@string/plants"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/button_category_pipe"
+                app:layout_constraintTop_toBottomOf="@id/button_category_grass" />
+
+            <Button
+                android:id="@+id/button_category_pipe"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/category_button_selector"
+                android:drawableTop="@drawable/ic_pipe"
+                android:text="@string/pipes"
+                app:layout_constraintStart_toEndOf="@id/button_category_plant"
+                app:layout_constraintEnd_toStartOf="@id/button_category_fence"
+                app:layout_constraintTop_toBottomOf="@id/button_category_fertilizer" />
+
+            <Button
+                android:id="@+id/button_category_fence"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/category_button_selector"
+                android:drawableTop="@drawable/ic_fence"
+                android:text="@string/fences"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/button_category_pipe"
+                app:layout_constraintTop_toBottomOf="@id/button_category_tree" />
+
+            <Button
+                android:id="@+id/button_category_soil"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/category_button_selector"
+                android:drawableTop="@drawable/ic_soil"
+                android:text="@string/soil"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/button_category_decoration"
+                app:layout_constraintTop_toBottomOf="@id/button_category_plant" />
+
+            <Button
+                android:id="@+id/button_category_decoration"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/category_button_selector"
+                android:drawableTop="@drawable/ic_column"
+                android:text="@string/decorations"
+                app:layout_constraintStart_toEndOf="@id/button_category_soil"
+                app:layout_constraintEnd_toStartOf="@id/button_category_general"
+                app:layout_constraintTop_toBottomOf="@id/button_category_pipe" />
+
+            <Button
+                android:id="@+id/button_category_general"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/category_button_selector"
+                android:drawableTop="@drawable/ic_wheelbarrow"
+                android:text="@string/general"
+                app:layout_constraintStart_toEndOf="@id/button_category_decoration"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/button_category_fence" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+</layout>

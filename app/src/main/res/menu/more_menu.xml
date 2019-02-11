@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/customer_call"
+        android:title="@string/call_customer"
+        android:orderInCategory="100"
+        />
+    <item
+        android:id="@+id/customer_navigate"
+        android:title="@string/navigate_to_customer"
+        android:orderInCategory="101"/>
+</menu>
+

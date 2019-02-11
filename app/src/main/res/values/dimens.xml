@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!--AddCustomerActivity and UpdateCustomerActivity dimens-->
+    <dimen name="customer_margin_big">30dp</dimen>
+    <dimen name="customer_margin_small">10dp</dimen>
+    <dimen name="customer_margin_start">10dp</dimen>
+    <dimen name="customer_margin_end">60dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="part_list_text_size">12sp</dimen>
+    <dimen name="button_create_update_margin_start">60dp</dimen>
+    <dimen name="parts_by_category_margin">5dp</dimen>
+    <!--End of AddCustomerActivity and UpdateCustomerActivity dimens-->
+</resources>

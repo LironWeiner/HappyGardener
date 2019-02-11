@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.weinner.liron.happygardener.PartsByCategoryActivity">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/myTheme1.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:theme="@style/myTheme1.AppBarOverlay"
+                android:background="@color/toolbar_green"
+                android:visibility="gone" />
+
+            <SearchView
+                android:id="@+id/search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/toolbar"
+                android:background="@color/toolbar_green"
+                android:queryHint="@string/category_search_hint" />
+        </android.support.design.widget.AppBarLayout>
+
+        <include android:id="@+id/included" layout="@layout/content_parts_by_category" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:fabSize="normal"
+            app:backgroundTint="@color/my_add_fab_color"
+            android:tint="#ffffff"
+            android:src="@drawable/ic_add" />
+    </android.support.design.widget.CoordinatorLayout>
+</layout>

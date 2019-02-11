@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CustomerParts">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:visibility="gone"
+            android:background="@color/toolbar_green"
+            android:theme="@style/myTheme1.AppBarOverlay"/>
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/customerPartsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customer_form"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:transitionName="partTransition"
+            android:layout_margin="@dimen/fab_margin">
+            <TextView
+                android:id="@+id/textView_customer_parts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="@dimen/customer_margin_small"
+                android:text="@string/customer_parts"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+            <View
+                android:id="@+id/customer_parts_bottom_divider"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                app:layout_constraintTop_toBottomOf="@id/textView_customer_parts"
+                android:layout_marginTop="@dimen/customer_margin_small"
+                android:background="@color/light_grey" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/textView_customer_parts"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="@dimen/customer_margin_small"
+                android:layout_marginEnd="@dimen/fab_margin"
+                android:src="@drawable/ic_add"
+                android:tint="#ffffff"
+                app:backgroundTint="@color/my_add_fab_color"
+                app:fabSize="mini" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/part_list"
+                android:layout_width="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_height="0dp"
+                android:paddingBottom="50dp"
+                app:layout_constraintTop_toBottomOf="@+id/customer_parts_bottom_divider"
+                />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.design.widget.AppBarLayout>
+</layout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/parts_by_category_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.weinner.liron.happygardener.PartsByCategoryActivity"
+        tools:showIn="@layout/activity_parts_by_category">
+        <TextView
+            android:id="@+id/textView_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="category"
+            android:background="@drawable/category_button_selector"
+            android:textAlignment="center" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/part_collection_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_category" />
+    </android.support.constraint.ConstraintLayout>
+</layout>

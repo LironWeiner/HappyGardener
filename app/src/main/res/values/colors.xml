@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="primary_dark_material_light" tools:ignore="PrivateResource">#ffffff</color>
+    <color name="add_customer_background">#eef2f2</color>
+    <color name="my_red">#ef232d</color>
+    <color name="app_green">#26d28d</color>
+    <color name="toolbar_green">#11b775</color>
+    <color name="light_grey">#f2f2f2</color>
+    <color name="blacked_screen">#b34b4b4b</color>
+    <color name="transparent_app_green">#4332d795</color>
+    <color name="my_add_fab_color">#21455b</color>
+    <color name="my_blue_ice">#abe6ec</color>
+</resources>

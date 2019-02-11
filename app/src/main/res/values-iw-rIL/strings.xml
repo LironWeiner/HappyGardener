@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">הגנן השמח</string>
+    <string name="customer_detail">פרטי לקוח</string>
+    <string name="customer_name">שם לקוח</string>
+    <string name="customer_name_hint">לדוגמה אברהם כהן</string>
+    <string name="customer_phone">פלאפון</string>
+    <string name="customer_phone_hint">לדוגמה 0541234567</string>
+    <string name="customer_payment">אופן תשלום</string>
+    <string name="customer_address">כתובת לקוח</string>
+    <string name="customer_address_hint">לחץ על האייקון לבחירת מיקום</string>
+    <string name="customer_date_hint">לחץ על האייקון לבחירת תאריך ושעה</string>
+    <string name="customer_date">תאריך ביצוע עבודה</string>
+    <string name="select_all">בחר הכל</string>
+    <string name="toast_empty_name">הכנס שם ושם משפחה לדוגמא יעקב כהן</string>
+    <string name="choose_a_category">בחר בקטגוריה</string>
+    <string name="grass">דשא</string>
+    <string name="fertilizer">דשן</string>
+    <string name="tree">עצים</string>
+    <string name="plants">שתילים</string>
+    <string name="pipes">צינורות</string>
+    <string name="fences">גדרות</string>
+    <string name="soil">אדמה</string>
+    <string name="decorations">קישוטים</string>
+    <string name="general">כללי</string>
+    <string name="opendialog_sign_out">האם אתה בטוח שאתה רוצה להתנתק?</string>
+    <string name="opendialog_yes">כן</string>
+    <string name="opendialog_no">לא</string>
+    <string name="part_details">פרטי חלק</string>
+    <string name="part_s_name">שם החלק</string>
+    <string name="hint_part_name">לדוגמה דשא סינטטי</string>
+    <string name="parts_price_per_unit">מחיר ליחידה</string>
+    <string name="hint_part_price">לדוגמה 45.48</string>
+    <string name="create_customer">צור לקוח</string>
+    <string name="create_part">צור חלק</string>
+    <string name="price">מחיר</string>
+    <string name="name">שם</string>
+    <string name="toast_delete_used_part_1">לא ניתן למחוק</string>
+    <string name="toast_delete_used_part_2">בשימוש אצל לקוח</string>
+    <string name="part_s_quantity">כמות</string>
+    <string name="quantity_hint">לדוגמה 2</string>
+    <string name="measurement">מידה</string>
+    <string name="total_price">מחיר משוקלל</string>
+    <string name="hint_total_price">מלא את השורה של כמות</string>
+
+
+    <string-array name="payment_options">
+        <item>ריק</item>
+        <item>צק</item>
+        <item>מזומן</item>
+        <item>העברה בנקאית</item>
+    </string-array>
+
+    <string-array name="measurement_options">
+        <item>יחידה</item>
+        <item>מטר מרובע</item>
+        <item>מטר</item>
+        <item>אינץ</item>
+        <item>סנטימטר</item>
+        <item>מילימטר</item>
+    </string-array>
+
+    <string name="unit">יחידה</string>
+
+    <string name="Required">מלא את השדה</string>
+    <string name="valid_number">הכנס מספר תקין</string>
+    <string name="customer_parts">חלקים של לקוח</string>
+    <string name="quantity">כמות</string>
+    <string name="error_part_name">הכנס שם חלק</string>
+    <string name="error_part_price">הכנס מחיר חלק</string>
+    <string name="error_valid_number">הכנס מספר תקין</string>
+    <string name="update_part">עדכן פרטי חלק</string>
+    <string name="toast_equal">לא שינית שום דבר</string>
+    <string name="reminder">תזכורת עבודה</string>
+    <string name="weekly">שבועי</string>
+    <string name="monthly">חודשי</string>
+    <string name="every_two_weeks">כל שבועיים</string>
+    <string name="none">ללא</string>
+    <string name="repeat">חזרה</string>
+    <string name="error_customer_date">הכנס תאריך</string>
+    <string name="error_customer_notification">הכנס תאריך התראה</string>
+    <string name="job_details">פרטי עבודה</string>
+    <string name="parts_price">מחיר חלקים</string>
+    <string name="hint_add_parts">הוסף חלקים לחלקים של הלקוח</string>
+    <string name="estimated_time_to_perform_the_job">זמן מוערך לביצוע העבודה</string>
+    <string name="hourly_rate">תעריף לשעה</string>
+    <string name="enter_hourly_rate">הכנס תעריף לשעת עבודה</string>
+
+    <string name="hint_estimate_time">הכנס זמן מוערך לביצוע העבודה</string>
+    <string name="price_without_discount">מחיר ללא הנחה</string>
+    <string name="hint_enter_hourly_rate_parts_estimate_time">הכנס תעריף לשעה,חלקים,זמן מוערך</string>
+    <string name="discount">הנחה</string>
+    <string name="final_price">מחיר סופי</string>
+    <string name="hours">שעות</string>
+    <string name="days">ימים</string>
+    <string name="dialog_add_customer_quit">האם אתה בטוח שברצונך לבטל יצירת/עדכון לקוח כל המידע יאבד</string>
+    <string name="dialog_remove_customer">האם אתה בטוח שברצונך למחוק לקוח/ות</string>
+    <string name="dialog_warning">אזהרה</string>
+    <string name="searchview_hint">הכנס שם לקוח או תאריך</string>
+    <string name="update_customer">עדכן לקוח</string>
+    <string name="final_price_after_discount">מחיר סופי לאחר הנחה</string>
+    <string name="equal_part">קיים חלק זהה!</string>
+    <string name="call_customer">התקשר ללקוח</string>
+    <string name="navigate_to_customer">נווט ללקוח</string>
+    <string name="toast_navigation">הכנס כתובת</string>
+    <string name="toast_call">הכנס מספר פלאפון</string>
+    <string name="dialog_update_customer">האם אתה בטוח שברצונך לעדכן לקוח זה?</string>
+    <string name="category_search_hint">הכנס שם חלק</string>
+    <string name="part_picture_text">תמונה</string>
+    <string name="upload_picture">בחר תמונה</string>
+    <string name="delete_picture_success">תמונה נמחקה</string>
+    <string name="dialog_remove_part">האם אתה בטוח שברצונך למחוק חלק/ים</string>
+    <string name="send_bill_toast">הכנס מחיר סופי</string>
+    <string name="customer_name_allowed_characters">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ \'אבגדהוזחטיכךלמםנןסעפףצץקרשת</string>
+    <string name="connect_with_google">התחבר עם גוגל</string>
+    <string name="fab_parts_hint">מאגר חלקים</string>
+    <string name="disconnect">התנתק</string>
+    <!-- CustomerActivityGuide strings-->
+    <string name="short_press_button">לחץ על הכפתור להוספת לקוח</string>
+    <string name="long_press_button">לחץ לחיצה ארוכה על הכפתור לעוד אפשרויות</string>
+    <string name="guide_dialog">האם תרצה לעבור הדרכה קצרה לשימוש באפליקציה?</string>
+    <!--End of CustomerActivityGuide strings-->
+    <string name="progress_dialog_backup_database">מבצע גיבוי</string>
+    <string name="toast_pick_image_from_phone">בחר תמונה שנמצאת על אחסון הפלאפון</string>
+    <string name="toast_picture_invalid">תמונה לא קיימת/בעייה בתמונה</string>
+</resources>
