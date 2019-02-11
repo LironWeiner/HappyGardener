@@ -6,14 +6,10 @@ The user can add image for the parts that are uploaded to a firebase storage as 
 There's also a tutorial that teaches the basics. The user must have or create a google account to use the app as an authentication and also the database is backed up on firebase storage can use multiple accounts each got its own database backup. 
 The app got translation to English and Hebrew.
 
-## Min android version 6.0 (Marshmallow) 
-## Max android version 8.1 (Oreo)
+### Min android version 6.0 (Marshmallow) 
+### Max android version 8.1 (Oreo)
 
-You can download the application and install it to your android smartphone through this link https://github.com/LironWeiner/HappyGardener/raw/master/Apk/HappyGardener.apk
+You can download the application and install it to your android smartphone through this link [GitHub pages](https://github.com/LironWeiner/HappyGardener/raw/master/Apk/HappyGardener.apk).
 
 
-###########################################################################################################################################
-###########################################################################################################################################
 All icons that are used in this application are *Designed by Freepik from www.flaticon.com* 
-###########################################################################################################################################
-###########################################################################################################################################
