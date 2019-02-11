@@ -9,6 +9,8 @@ The app got translation to English and Hebrew.
 ## Min android version 6.0 (Marshmallow) 
 ## Max android version 8.1 (Oreo)
 
+You can download the application and install it to your android smartphone through this link https://github.com/LironWeiner/HappyGardener/raw/master/Apk/HappyGardener.apk
+
 
 ###########################################################################################################################################
 ###########################################################################################################################################
